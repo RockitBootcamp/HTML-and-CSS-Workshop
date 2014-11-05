@@ -16,6 +16,7 @@ To start, it's recommended that students download [SublimeText](http://www.subli
 1. Project
  1. Introduce the HTML 
  1. Design the Header
+1. Extra Learning with JavaScript
 
 ## Setup
 
@@ -94,6 +95,34 @@ Show the students that there are very semantic tag names with easy-to-understand
 
 To get the ball rolling, you'll want to design some of the project for them. You might want to do the header section and challenge the students to look at the final output (`final.html`), look at what we have so far with `index.html`, look at the HTML and CSS selectors and try to figure out what properties need to be applied. Once you get some working you can let the students finish it off while you help out any students with questions.
 
+You'll have to teach the basic concept of a reset and how the asterisk selector is used to apply all styles. This is where you'll show that some styles like the font-family are applied to all areas with just one selector, and then can be override:
 
+```css
+* {
+	font-family: 'Lato';
+	color: #888;
+}
+```
+
+> Tip: You might also notice that the `index.html` file brings in fonts from Google. The Lato font is meant to be the default font for the page (as seen above with the reset). The Courgette font is meant to use used as an override to the Lato font in certain situations (like headers)
+
+```css
+h1 {
+	font-family: 'Courgette';
+	color: #444;
+}
+
+h2 {
+	font-family: 'Courgette';
+	color: #444;
+}
+```
+> Tip: You also might notice that all the answers to which properties go in which selectors is found in the file: `final-theme.css`
+
+# Extra Learning with JavaScript
+
+If you have time, you can teach the students some basic javascript concepts. Start by teaching the concept of state-management with class names. You might have styles applied to a paragraph which serve as a default state, but then having a `class="selected"` is a new visual state and we accomplish this with class names. You might need to introduce the concept of multiple class names in HTML and how to select something with multiple class names in the browser.
+
+Notice that the `final.html` file includes jQuery and a JavaScript file at the bottom. In that JavaScript file you'll notice a simple event handler for when boxes get clicked. You can show the basics of how jQuery works with events and how classes can be toggled on and off of DOM elements. Notice that the JS file refers to a line number in CSS where you can demonstrate the new "selected" styles taking effect.
 
 
