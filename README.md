@@ -74,9 +74,20 @@ Since we're at a point where we have all of our paragraphs stylized with one CSS
 
 So far we should only have simple tags in our HTML without nesting. Nesting might be difficult to explain without seeing colors applied to tags so it makes more sense to explain nesting after we've applied some CSS. One idea could be to wrap our paragraph tags in a div tag and then stylized our div with a background color. 
 
-It will be important to intoduce terms like `parent`, `child`, `sibling`, and `container` at this point so the students can more easily convers with the instructors when the see the project.
+It will be important to introduce terms like `parent`, `child`, `sibling`, and `container` at this point so the students can more easily converse with the instructors when the see the project.
 
 # Project
+
+With both the `index.html` and `final.html` files open in the browser, explain that the goal of the project is to add styles to get the first file to look like the second.
+
+Its important to know that the `index.html` file includes `base.css` and `theme.css`. The base file sets up CSS structure and the students should ignore that file for now. The theme file is where the students will work on their CSS skills. Notice that this file already has all the selectors written for the students. It also has all the properties written in the comments section at the top of the CSS file. The goal is to have the students copy/paste the properties to the appropriate selector blocks.
+
+
+
+
+
+
+
 
 
 
