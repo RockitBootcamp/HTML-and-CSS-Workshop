@@ -25,6 +25,11 @@ html {
 body {
 	min-height: 100%;
 	background-size: cover;
+	background-color: #EEE;
+}
+
+header {
+	background-color: #AAA;
 }
 
 header > div {
@@ -76,6 +81,7 @@ main {
 	margin: 10px 0;
 	padding: 10px;
 	overflow: hidden; /* Incase someone wants to float an image */
+	background-color: #FFF;
 }
 
 aside .box {

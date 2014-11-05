@@ -32,13 +32,10 @@ div.logo {
 div.box {
 	background-color: #FFF;
 	border-radius: 5px;
-	transition: all 0.1s ease-in;
 }
 
 div.box.selected {
-	box-shadow: 0 0 15px 0 #000000;
-	transform: scale(1.05) translateY(15px);
-	transition: all 0.1s ease-in;
+	background-color: yellow;
 }
 
 h1 {
