@@ -43,9 +43,22 @@ Create an anchor tag with an `href` attribute. Show the students the "anatomy" o
 
 Explain that this is conceptual and that we can't actually invent our own tags or attributes, but this example has shown to be useful in explaining what the purpose of an attribute is.
 
+At this point, your demonstration might look something like:
+
+```html
+<h1>Our Title</h1>
+
+<p>Our Paragraph</p>
+<p>Our Paragraph</p>
+
+<a href="http://www.google.com">Google</a>
+```
+
 ## CSS Include
 
 Now that we have a few tags, it's a good time to teach styles. If the class is longer, you can introduce inline-styles, then embedded styles (`<style>` tag). But if the class is shorter, it would be best to jump strait to `<link>` tags to include external styles (Since that's how the project is built).
+
+> Tip: Again the `<link>` tag can be used without the `<head>` tag at this point
 
 ## Tag Selector
 
@@ -53,12 +66,17 @@ Start by doing a simple tag selector to stylize the headings, paragraphs, and an
 
 ## Class Selectors
 
-Since we're at a point where we have all of our paragraphs stylized with one CSS block, it would be a good time to introduce the concept of classes and how to stylize a whole group of tags (as with all the paragraphs) and then to iscolate certain ones with class names. 
+Since we're at a point where we have all of our paragraphs stylized with one CSS block, it would be a good time to introduce the concept of classes and how to stylize a whole group of tags (as with all the paragraphs) and then to isolate certain ones with class names. 
 
-> Tip: Since the students are already familair with tag selectors, it would be important to the syntax: `tag.class-name` instead of just `.class-name` so the students feel like they are adding to their already existing knowledge of tag selectors
+> Tip: Since the students are already familiar with tag selectors, it would be important to the syntax: `tag.class-name` instead of just `.class-name` so the students feel like they are adding to their already existing knowledge of tag selectors
 
+## Nesting in HTML
 
+So far we should only have simple tags in our HTML without nesting. Nesting might be difficult to explain without seeing colors applied to tags so it makes more sense to explain nesting after we've applied some CSS. One idea could be to wrap our paragraph tags in a div tag and then stylized our div with a background color. 
 
+It will be important to intoduce terms like `parent`, `child`, `sibling`, and `container` at this point so the students can more easily convers with the instructors when the see the project.
+
+# Project
 
 
 
