@@ -14,6 +14,8 @@ To start, it's recommended that students download [SublimeText](http://www.subli
  1. Class Selectors
  1. Nesting HTML
 1. Project
+ 1. Introduce the HTML 
+ 1. Design the Header
 
 ## Setup
 
@@ -82,11 +84,15 @@ With both the `index.html` and `final.html` files open in the browser, explain t
 
 Its important to know that the `index.html` file includes `base.css` and `theme.css`. The base file sets up CSS structure and the students should ignore that file for now. The theme file is where the students will work on their CSS skills. Notice that this file already has all the selectors written for the students. It also has all the properties written in the comments section at the top of the CSS file. The goal is to have the students copy/paste the properties to the appropriate selector blocks.
 
+## Introduce the HTML
 
+It will be important to show the students the project's HTML at this point. Since the project makes use of proper `<html>`, `<head>`, and `<body>` tags. It might be useful to explain those in an isolated file at first.
 
+Show the students that there are very semantic tag names with easy-to-understand classes and how it's relatively easy to tell which parts of the HTMl correspond to which parts of the design.
 
+## Design the Header
 
-
+To get the ball rolling, you'll want to design some of the project for them. You might want to do the header section and challenge the students to look at the final output (`final.html`), look at what we have so far with `index.html`, look at the HTML and CSS selectors and try to figure out what properties need to be applied. Once you get some working you can let the students finish it off while you help out any students with questions.
 
 
 
