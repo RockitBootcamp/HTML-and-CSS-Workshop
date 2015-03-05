@@ -1,6 +1,6 @@
 # Instructor Overview
 
-This overview informs instructors on how to teach the RockIT Web Workshop in approximately 2-4 hours. The Workshop is broken into two main section: `Learn the Code` and `Project` as you'll read below.
+This overview informs instructors on how to teach this Workshop in approximately 2-4 hours. The Workshop is broken into two main section: `Learn to Code` and `Project` as you'll read below.
 
 ## Key Concepts (Agenda)
 To start, it's recommended that students download [SublimeText](http://www.sublimetext.com/3) and the code ahead of time. It's also recommended that the students use Chome or Firefox when doing the Workshop.
@@ -24,9 +24,9 @@ Have all the students download the project and open the `index.html` and `final.
 
 > Tip: Have the students drag the WebWorkshop folder into SublimeText so they can see all files/folders. Also note that since it's a brand new install of Sublime, they may need to turn on the Sidebar by going to `View > Sidebar`
 
-# Learn the Code
+# Learn to Code
 
-The "Learn the Code" portion of the class is meant to teach the basics of how HTML and CSS work. Make a new HTML file and save it so you can do demonstrations in the browser. Some students might want to follow along and do the same steps as the instructor, but it's important to aknowledge that for most students simply watching and not trying to keep up with typing is perfectly acceptable. 
+This portion of the class teaches the basics of how HTML and CSS work. Make a new HTML file and save it so you can do demonstrations in the browser. Some students might want to follow along and do the same steps as the instructor, but it's important to aknowledge that for most students simply watching and not trying to keep up with typing is perfectly acceptable. 
 
 ## HTML Tags and Whitespace
 
@@ -34,7 +34,7 @@ Start your HTML file by typing only plain-text. Show that this can be saved and 
 
 After showing plain-text, show how simple tags like `<p>` and `<h1>` can be used to enhance our document. Explain the "anatomy" of a tag and how opening/closing tags work. Using paragraph tags are nice because you can demonstrate how space is created between the content when rendered.
 
-> Tip: It's important to not show the `<html>`, `<head>`, and `<body>` tags at this point. Just simply tags around content is enough.
+> Tip: It's important to not show the `<html>`, `<head>`, and `<body>` tags at this point. Just simply tags around content is enough. Showing these extra formalities just confuses beginners. We can show these parts later on just before we get into the project, but it's best to show less at first.
 
 ## Attributes
 
