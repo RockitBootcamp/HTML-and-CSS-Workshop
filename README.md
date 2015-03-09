@@ -5,25 +5,27 @@ This overview informs instructors on how to teach this Workshop in approximately
 ## Key Concepts (Agenda)
 To start, it's recommended that students download [SublimeText](http://www.sublimetext.com/3) and the code ahead of time. It's also recommended that the students use Chome or Firefox when doing the Workshop.
 
-1. Setup
-1. Learn the Code
+1. [Setup](#setup)
+1. [Learn the Code](#code)
  1. HTML Tags and whitepsace
  1. Attributes
  1. CSS include
  1. Tag Selectors
  1. Class Selectors
  1. Nesting HTML
-1. Project
+1. [Project](#project)
  1. Introduce the HTML 
  1. Design the Header
-1. Extra Learning with JavaScript
+1. [Extra Learning with JavaScript](#jsExtra)
 
+<a id="setup"></a>
 ## Setup
 
 Have all the students download the project and open the `index.html` and `final.html` in the browser. Then make sure all students have the `index.html` file open in SublimeText.
 
 > Tip: Have the students drag the WebWorkshop folder into SublimeText so they can see all files/folders. Also note that since it's a brand new install of Sublime, they may need to turn on the Sidebar by going to `View > Sidebar`
 
+<a id="code"></a>
 # Learn to Code
 
 This portion of the class teaches the basics of how HTML and CSS work. Make a new HTML file and save it so you can do demonstrations in the browser. Some students might want to follow along and do the same steps as the instructor, but it's important to aknowledge that for most students simply watching and not trying to keep up with typing is perfectly acceptable. 
@@ -79,6 +81,7 @@ So far we should only have simple tags in our HTML without nesting. Nesting migh
 
 It will be important to introduce terms like `parent`, `child`, `sibling`, and `container` at this point so the students can more easily converse with the instructors when the see the project.
 
+<a id="project"></a>
 # Project
 
 With both the `index.html` and `final.html` files open in the browser, explain that the goal of the project is to add styles to get the first file to look like the second.
@@ -119,6 +122,7 @@ h2 {
 ```
 > Tip: You also might notice that all the answers to which properties go in which selectors is found in the file: `final-theme.css`
 
+<a id="jsExtra"></a>
 # Extra Learning with JavaScript
 
 If you have time, you can teach the students some basic javascript concepts. Start by teaching the concept of state-management with class names. You might have styles applied to a paragraph which serve as a default state, but then having a `class="selected"` is a new visual state and we accomplish this with class names. You might need to introduce the concept of multiple class names in HTML and how to select something with multiple class names in the browser.
